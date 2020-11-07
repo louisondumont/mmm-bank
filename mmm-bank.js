@@ -9,7 +9,7 @@
 
 Module.register("mmm-bank", {
 	defaults: {
-		updateInterval: 60000,
+		updateInterval: 600000,
 		retryDelay: 5000
 	},
 
@@ -40,6 +40,7 @@ Module.register("mmm-bank", {
 		var self = this;
 
 		self.sendSocketNotification('mmm-bank-PLAID_QUERY', {config: self.config})
+		self.scheduleUpdate();
 	},
 
 
