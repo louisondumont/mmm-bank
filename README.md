@@ -5,6 +5,8 @@ This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror
 
 It displays your bank account balance. Works with major US banks with Plaid API.
 
+![Screenshot](https://raw.githubusercontent.com/louisondumont/mmm-bank/master/screenshot_mmm-bank.png)
+
 ## Using the module
 
 ### Step 1 - Get a Plaid access token
